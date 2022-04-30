@@ -14,3 +14,6 @@ If you are using Mac, open Terminal app and type "brew install openocd".
 8. Press F5 to debug.
 9. Profit!
 
+The repo contains both examples for STM32F103C8T6 chip (almost all bluepills assembled with it) and for STM32F103C6T6 (this chip has much more available price).
+The differrence between them is that C6T6 have 32K flash (vs 64K on C8T6) and 10K RAM (vs 20K on C8T6). So with C6T6 you shall use a bit different bit linker script and asm startup file. Examples do have correct ones for each other, so both of them must work out of the box.
+
