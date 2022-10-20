@@ -9,7 +9,7 @@ If you are using Mac, open Terminal app and type "brew install openocd".
 3. Add both to path.
 4. Install Microsoft C/C++ and Cortex-Debug by marus25 extensions for VSCode.
 5. Drag'n'drop project folder to VSCode.
-6. Open .vscode folder and specify path to gcc-arm-none-eabi and openocd in c_cpp_prroperties.json annd settings.json.
+6. Open .vscode folder and specify path to gcc-arm-none-eabi and openocd in c_cpp_prroperties.json and settings.json. Also edit paths to config files in launch.json. 
 7. Press Shift+Cmd+B, then select "Make Build".
 8. Press F5 to debug.
 9. Profit!
